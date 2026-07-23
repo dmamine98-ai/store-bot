@@ -3,8 +3,8 @@ from flask import Flask
 from threading import Thread
 import telebot
 
-# 1. إعداد التوكن الخاص بالبوت (تأكد من استبدال YOUR_BOT_TOKEN بالتوكن الحقيقي أو ربطه بمتغيرات البيئة)
-TOKEN = os.environ.get('BOT_TOKEN', 'YOUR_BOT_TOKEN')
+# 1. التوكن الخاص بك في مكانه الصحيح
+TOKEN = '8822842091:AAE93io0laKRxNWl__fukFHc7jzqpljRwaI'
 bot = telebot.TeleBot(TOKEN)
 
 # 2. إعداد خادم الويب المصغر (Keep-Alive) لبقاء البوت حيًا 24/7
